@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 
-import {  } from './stateTree/actions';
+// import {  } from './stateTree/actions';
 
 import './App.css';
 
@@ -26,11 +26,13 @@ class App extends Component {
 
 
 
-const mapStateToProps = state => ({
-  users:state.users,
-})
+// const mapStateToProps = state => ({
+//   users:state.users,
+// })
 
-export default connect(
-  mapStateToProps, 
-  {  }
-)(App);
+// export default connect(
+//   mapStateToProps, 
+//   {  }
+// )(App);
+
+export default App
