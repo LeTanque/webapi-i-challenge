@@ -1,28 +1,27 @@
-import React, { Component } from 'react';
-// import { connect } from 'react-redux';
+import React, { } from 'react';
 
-// import {  } from './stateTree/actions';
+// import { connect } from 'react-redux';
+// import { getUsers } from './stateTree/actions';
 
 import './App.css';
 
-import Users from './components/Users';
+import Users from './components/Users.jsx';
 
 
-class App extends Component {
+
+const App = () => {
 
 
-  render() {
-
-    return (
-      <div className="App">
-        <header className="App-header">
-          <Users />
-          
-        </header>
-      </div>
-    );
-  }
+  return (
+    <div className="App">
+      <header className="App-header">
+        <Users />
+        
+      </header>
+    </div>
+  );
 }
+
 
 
 
@@ -32,7 +31,7 @@ class App extends Component {
 
 // export default connect(
 //   mapStateToProps, 
-//   {  }
+//   { getUsers }
 // )(App);
 
 export default App

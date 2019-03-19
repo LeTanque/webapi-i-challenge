@@ -14,14 +14,15 @@ export const getUsers = () => dispatch => {
         .get('http://localhost:4000/api/users')
         .then(response => {
             dispatch({
-            type: GET_USERS_SUCCESS,
-            payload: response.data,
+                type: GET_USERS_SUCCESS,
+                payload: response.data,
             })
         })
         .catch(error => {
             dispatch({
-            type: GET_USERS_FAIL,
-            payload: error.message,
+                type: GET_USERS_FAIL,
+                payload: error.message,
             })
         })
 }
+

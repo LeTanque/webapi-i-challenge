@@ -8,7 +8,7 @@ import {
 const initialState = {
     users:[],
     fetchingUser:false,
-    error: null,
+    error:null,
 }
 
 
